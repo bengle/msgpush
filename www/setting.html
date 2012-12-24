@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/jquery.mobile-1.2.0.min.css" />
+    <script src="lib/jquery-1.8.3.min.js"></script>
+    <script src="lib/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+
+    <div data-role="header">
+        <h1>我的设置</h1>
+    </div>
+
+    <div data-role="content">
+        设置
+    </div>
+    <style>
+        .nav-glyphish .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+        .nav-glyphish .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+        #msg .ui-icon { background:  url(res/icons/icons-white/09-chat-2@2x.png) 50% 50% no-repeat; background-size: 24px 22px; }
+        #fav .ui-icon { background:  url(res/icons/icons-white/253-person@2x.png) 50% 50% no-repeat; background-size: 26px 24px;  }
+        #list .ui-icon { background:  url(res/icons/icons-white/259-list@2x.png) 50% 50% no-repeat;  background-size: 20px 24px; }
+        #setting .ui-icon { background:  url(res/icons/icons-white/19-gear@2x.png) 50% 50% no-repeat;  background-size: 26px 26px; }
+    </style>
+    <div data-role="footer" class="nav-glyphish" data-position="fixed" data-id="myfooter">
+        <div data-role="navbar" class="nav-glyphish">
+            <ul>
+                <li><a href="msg.html" data-icon="custom" id="msg">消息中心</a></li>
+                <li><a href="fav.html" data-icon="custom" id="fav">我的收藏</a></li>
+                <li><a href="list.html" data-icon="custom" id="list">逛一逛</a></li>
+                <li><a href="#" data-icon="custom" id="setting" class="ui-btn-active ui-state-persist">设置</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
