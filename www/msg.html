@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Page</title>
+    <title>msg center</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="lib/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="css/msg.css" />
     <script src="lib/jquery-1.8.3.min.js"></script>
     <script src="lib/jquery.mobile-1.2.0.min.js"></script>
 </head>
 <body>
 
 <div data-role="page">
-
-    <div data-role="header">
-        <h1>My Title</h1>
-    </div>
-
     <div data-role="content">
-        <ul data-role="listview" data-inset="true" data-filter="true">
-            <li><a href="#">Acura</a></li>
-            <li><a href="#">Audi</a></li>
-            <li><a href="#">BMW</a></li>
-            <li><a href="#">Cadillac</a></li>
-            <li><a href="#">Ferrari</a></li>
-        </ul>
-        <ul data-role="listview" data-inset="true" data-filter="true">
-            <li><a href="#">Acura</a></li>
-            <li><a href="#">Audi</a></li>
-            <li><a href="#">BMW</a></li>
-            <li><a href="#">Cadillac</a></li>
-            <li><a href="#">Ferrari</a></li>
-        </ul>
-        <ul data-role="listview" data-inset="true" data-filter="true">
-            <li><a href="#">Acura</a></li>
-            <li><a href="#">Audi</a></li>
-            <li><a href="#">BMW</a></li>
-            <li><a href="#">Cadillac</a></li>
-            <li><a href="#">Ferrari</a></li>
+        <div class="top">
+        </div>
+        <div class="info">
+            <ul>
+                <li class="unread">未读信息<span>10</span></li>
+                <li class="fav">收藏店铺<span>10</span></li>
+                <li class="fav">收藏宝贝<span>10</span></li>
+            </ul>
+            <img class="user" src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userNick=%d5%c5%cd%a6&width=80&height=80&type=sns" width="150" height="150">
+        </div>
+        <ul class="msg">
+            <li>
+                <img src="http://img02.taobaocdn.com/bao/uploaded/i2/24752318/T24oiwXX0bXXXXXXXX_!!24752318.jpg_100x100.jpg"/>
+                <div class="detail-wrap">
+                    <h3>宝贝有新评论</h3>
+                    <div class="detail">
+                        <img src="http://wwc.taobaocdn.com/avatar/getAvatar.do?userId=72429252&width=60&height=60&type=sns" width="65" height="65">
+                        <p class="comment">
+                            <strong>Harry:</strong>宝贝非常好，很是保暖
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1jdLZXlpdXXc68qPX_114239.jpg_100x100.jpg"/>
+                <div class="detail-wrap">
+                    <h3>xx家店铺有更新</h3>
+                    <div class="detail">
+                        <img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1jdLZXlpdXXc68qPX_114239.jpg_100x100.jpg" />
+                        <img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1jdLZXlpdXXc68qPX_114239.jpg_100x100.jpg" />
+                        <img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1jdLZXlpdXXc68qPX_114239.jpg_100x100.jpg" />
+                        <img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1jdLZXlpdXXc68qPX_114239.jpg_100x100.jpg" />
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
     <style>
