@@ -1,0 +1,6 @@
+.shop-list-ul{margin:0;background-color:#e7e7e7;padding:10px;}
+.shop-list-li{list-style:none;}
+.shop-logo{width:115px;height:115px;overflow:hidden;border-radius:4px;margin-right:10px;float:left;}
+.shop-info{line-height:12px;float:left;}
+.shop-name-link{font-size:16px;color:#444;}
+.shop-info span{font-size:14px;color:#666;}
