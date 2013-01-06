@@ -1,7 +1,8 @@
 .shop-list-ul{margin:0;background-color:#e7e7e7;padding:10px;}
-.shop-list-li{list-style:none;}
-.shop-logo{width:115px;height:115px;overflow:hidden;border-radius:4px;margin-right:10px;float:left;}
+.shop-list-li{list-style:none;margin:10px;}
+.shop-logo{width:64px;height:64px;overflow:hidden;border-radius:4px;margin-right:10px;margin-top: 5px;float:left;}
 .shop-info{line-height:12px;float:left;}
-.shop-name-link{font-size:16px;color:#444;}
-.shop-info span{font-size:14px;color:#666;}
+.shop-name-link{font-size:12px;color:#444;}
+.shop-info span{font-size:10px;color:#666;}
+.shop-info p{margin:5px 0;}
 .ui-content{padding:0;}
